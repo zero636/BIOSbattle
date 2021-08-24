@@ -30,7 +30,7 @@ public class CameraRig : MonoBehaviour
     }
 
 
-    private void Update()
+    private void FixedUpdate()
     {
         if (this.playerTransform)
         {

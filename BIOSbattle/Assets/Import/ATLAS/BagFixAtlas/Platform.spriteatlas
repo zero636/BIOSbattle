@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Platform
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 5349849119054781485, guid: 2d0225c7339d9f04bbb676d798685ac7, type: 3}
+    - {fileID: 2576131599038702814, guid: 2d0225c7339d9f04bbb676d798685ac7, type: 3}
+    - {fileID: -453030847742672330, guid: 2d0225c7339d9f04bbb676d798685ac7, type: 3}
+    - {fileID: 6096669962317178538, guid: 2d0225c7339d9f04bbb676d798685ac7, type: 3}
+    - {fileID: -2277855877205077524, guid: 2d0225c7339d9f04bbb676d798685ac7, type: 3}
+    - {fileID: -459134335637726002, guid: 2d0225c7339d9f04bbb676d798685ac7, type: 3}
+    - {fileID: 3669170916847922878, guid: 2d0225c7339d9f04bbb676d798685ac7, type: 3}
+    - {fileID: -1976481703801738103, guid: 2d0225c7339d9f04bbb676d798685ac7, type: 3}
+    - {fileID: -6019717969997099467, guid: 2d0225c7339d9f04bbb676d798685ac7, type: 3}
+    - {fileID: 1531878830492336386, guid: 2d0225c7339d9f04bbb676d798685ac7, type: 3}
+    - {fileID: -5957610497371786686, guid: 2d0225c7339d9f04bbb676d798685ac7, type: 3}
+    - {fileID: 347341184740830036, guid: 2d0225c7339d9f04bbb676d798685ac7, type: 3}
+    - {fileID: 5206593130094445408, guid: 2d0225c7339d9f04bbb676d798685ac7, type: 3}
+    - {fileID: 5003619492237298548, guid: 2d0225c7339d9f04bbb676d798685ac7, type: 3}
+    - {fileID: 103633588563951497, guid: 2d0225c7339d9f04bbb676d798685ac7, type: 3}
+    - {fileID: 2631377738023766840, guid: 2d0225c7339d9f04bbb676d798685ac7, type: 3}
+    - {fileID: -202167734609808477, guid: 2d0225c7339d9f04bbb676d798685ac7, type: 3}
+    - {fileID: 9102496472488135517, guid: 2d0225c7339d9f04bbb676d798685ac7, type: 3}
+    - {fileID: -7719463997398755476, guid: 2d0225c7339d9f04bbb676d798685ac7, type: 3}
+    - {fileID: -3356281654246632374, guid: 2d0225c7339d9f04bbb676d798685ac7, type: 3}
+    totalSpriteSurfaceArea: 5120
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 347341184740830036, guid: 2d0225c7339d9f04bbb676d798685ac7, type: 3}
+  - {fileID: 103633588563951497, guid: 2d0225c7339d9f04bbb676d798685ac7, type: 3}
+  - {fileID: 5003619492237298548, guid: 2d0225c7339d9f04bbb676d798685ac7, type: 3}
+  - {fileID: 2631377738023766840, guid: 2d0225c7339d9f04bbb676d798685ac7, type: 3}
+  - {fileID: 5206593130094445408, guid: 2d0225c7339d9f04bbb676d798685ac7, type: 3}
+  - {fileID: 9102496472488135517, guid: 2d0225c7339d9f04bbb676d798685ac7, type: 3}
+  - {fileID: -202167734609808477, guid: 2d0225c7339d9f04bbb676d798685ac7, type: 3}
+  - {fileID: 1531878830492336386, guid: 2d0225c7339d9f04bbb676d798685ac7, type: 3}
+  - {fileID: -5957610497371786686, guid: 2d0225c7339d9f04bbb676d798685ac7, type: 3}
+  - {fileID: -7719463997398755476, guid: 2d0225c7339d9f04bbb676d798685ac7, type: 3}
+  - {fileID: -6019717969997099467, guid: 2d0225c7339d9f04bbb676d798685ac7, type: 3}
+  - {fileID: -1976481703801738103, guid: 2d0225c7339d9f04bbb676d798685ac7, type: 3}
+  - {fileID: -3356281654246632374, guid: 2d0225c7339d9f04bbb676d798685ac7, type: 3}
+  - {fileID: 3669170916847922878, guid: 2d0225c7339d9f04bbb676d798685ac7, type: 3}
+  - {fileID: -459134335637726002, guid: 2d0225c7339d9f04bbb676d798685ac7, type: 3}
+  - {fileID: -2277855877205077524, guid: 2d0225c7339d9f04bbb676d798685ac7, type: 3}
+  - {fileID: 5349849119054781485, guid: 2d0225c7339d9f04bbb676d798685ac7, type: 3}
+  - {fileID: 2576131599038702814, guid: 2d0225c7339d9f04bbb676d798685ac7, type: 3}
+  - {fileID: -453030847742672330, guid: 2d0225c7339d9f04bbb676d798685ac7, type: 3}
+  - {fileID: 6096669962317178538, guid: 2d0225c7339d9f04bbb676d798685ac7, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Clean-Forest-Retro-Lines_57
+  - Clean-Forest-Retro-Lines_60
+  - Clean-Forest-Retro-Lines_59
+  - Clean-Forest-Retro-Lines_61
+  - Clean-Forest-Retro-Lines_58
+  - Clean-Forest-Retro-Lines_73
+  - Clean-Forest-Retro-Lines_72
+  - Clean-Forest-Retro-Lines_43
+  - Clean-Forest-Retro-Lines_46
+  - Clean-Forest-Retro-Lines_87
+  - Clean-Forest-Retro-Lines_32
+  - Clean-Forest-Retro-Lines_29
+  - Clean-Forest-Retro-Lines_88
+  - Clean-Forest-Retro-Lines_18
+  - Clean-Forest-Retro-Lines_15
+  - Clean-Forest-Retro-Lines_4
+  - Clean-Forest-Retro-Lines_0
+  - Clean-Forest-Retro-Lines_1
+  - Clean-Forest-Retro-Lines_2
+  - Clean-Forest-Retro-Lines_3
+  m_RenderDataMap: {}
+  m_Tag: Platform
+  m_IsVariant: 0

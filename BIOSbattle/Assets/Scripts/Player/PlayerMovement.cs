@@ -3,11 +3,13 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+
+    private Animator _animator;
+    
     
     [Header("Movement")]
     public float forceMovement = 0;
-    
-    private float routeMovement;
+    public float routeMovement;
     
     [Header("Jump")]
     public float forceJump = 0;
@@ -21,15 +23,21 @@ public class PlayerMovement : MonoBehaviour
     
     
     private Rigidbody2D _rb2d;
-
     
+    
+    private static readonly int Jumping = Animator.StringToHash("Jump");
+    private static readonly int Running = Animator.StringToHash("Running");
+
 
     private void Awake()
     {
         _rb2d = GetComponent<Rigidbody2D>();
     }
 
-    
+    private void Start()
+    {
+        _animator = GetComponent<Animator>();
+    }
 
 
     private void Update()
@@ -50,14 +58,27 @@ public class PlayerMovement : MonoBehaviour
     private void Movement()
     {
         _rb2d.velocity = new Vector2(routeMovement * forceMovement, _rb2d.velocity.y);
+        
+        _animator.SetBool(Running, routeMovement != 0);
     }
 
     private void Jump()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && onGround)
+        var _jump = Input.GetKeyDown(KeyCode.Space) && onGround;
+
+
+        if (_jump)
         {
             _rb2d.AddForce(Vector2.up * forceJump);
+            
+            _animator.SetBool(Jumping, true);
         }
+        else
+        {
+            _animator.SetBool(Jumping, false);
+        }
+        
+            
     }
 
     private void CheckingGround()
