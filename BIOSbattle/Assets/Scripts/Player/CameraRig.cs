@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 public class CameraRig : MonoBehaviour
@@ -32,19 +31,17 @@ public class CameraRig : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (this.playerTransform)
+        if (!this.playerTransform) return;
+        var target = new Vector3()
         {
-            Vector3 target = new Vector3()
-            {
-                x = this.playerTransform.position.x,
-                y = this.playerTransform.position.y,
-                z = this.playerTransform.position.z - 10,
-            };
+            x = this.playerTransform.position.x,
+            y = this.playerTransform.position.y,
+            z = this.playerTransform.position.z - 10,
+        };
 
 
-            Vector3 pos = Vector3.Lerp(this.transform.position, target, this.movingSpeed * Time.deltaTime);
+        var pos = Vector3.Lerp(this.transform.position, target, this.movingSpeed * Time.fixedDeltaTime);
 
-            this.transform.position = pos;
-        }
+        this.transform.position = pos;
     }
 }
